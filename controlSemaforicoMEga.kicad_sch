@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "c616119e-4503-4320-b4df-cfa71e76f7b3")
 	(paper "A4")
+	(title_block
+		(title "Tarjeta de Control (Mega)")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
