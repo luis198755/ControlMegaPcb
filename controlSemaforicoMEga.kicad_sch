@@ -4878,6 +4878,12 @@
 		(uuid "24fc1ffe-9e5b-48c5-8ef0-bf7ea5c8a075")
 	)
 	(junction
+		(at 142.24 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "270869c1-0fe9-4f3f-b02e-98c0784c8dd5")
+	)
+	(junction
 		(at 167.64 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4902,10 +4908,28 @@
 		(uuid "96e7a964-1157-408f-93b9-14a3ce867f38")
 	)
 	(junction
+		(at 142.24 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a2350d7-6e27-49f1-b973-6d78f2c59e59")
+	)
+	(junction
 		(at 171.45 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae9bdd2f-7b41-40ad-9fef-04e9ce3302bd")
+	)
+	(junction
+		(at 142.24 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f35bc094-9893-4b81-91e3-cfb65daf3925")
+	)
+	(junction
+		(at 142.24 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbb87785-b0ca-48ce-8570-5aae2ca2cbbc")
 	)
 	(wire
 		(pts
@@ -4969,7 +4993,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 49.53) (xy 168.91 49.53)
+			(xy 156.21 49.53) (xy 167.64 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4989,7 +5013,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 33.02) (xy 148.59 33.02)
+			(xy 124.46 33.02) (xy 142.24 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5006,6 +5030,16 @@
 			(type default)
 		)
 		(uuid "2123c166-931e-4697-bc5d-6fbc6894f9ff")
+	)
+	(wire
+		(pts
+			(xy 124.46 38.1) (xy 142.24 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f241a2-64a2-46d9-b800-75588b94d6af")
 	)
 	(wire
 		(pts
@@ -5459,6 +5493,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 40.64) (xy 142.24 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796e8c77-7cd0-4a05-8b64-fc3113dde67b")
+	)
+	(wire
+		(pts
 			(xy 76.2 130.81) (xy 64.77 130.81)
 		)
 		(stroke
@@ -5469,7 +5513,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 35.56) (xy 168.91 49.53)
+			(xy 167.64 35.56) (xy 167.64 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5546,6 +5590,16 @@
 			(type default)
 		)
 		(uuid "908def4d-d9a6-4b1d-8779-f836e2cfb016")
+	)
+	(wire
+		(pts
+			(xy 142.24 35.56) (xy 153.67 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9302fc1b-870a-457a-b3e6-ec1574656d57")
 	)
 	(wire
 		(pts
@@ -5649,7 +5703,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 35.56) (xy 168.91 35.56)
+			(xy 163.83 35.56) (xy 167.64 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5979,7 +6033,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 35.56) (xy 153.67 35.56)
+			(xy 124.46 35.56) (xy 142.24 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6036,6 +6090,16 @@
 			(type default)
 		)
 		(uuid "f7a57f6b-34fd-4973-a8d4-979f949d90b6")
+	)
+	(wire
+		(pts
+			(xy 142.24 33.02) (xy 148.59 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f38e52-7a36-4ba5-bf5e-c81432431e54")
 	)
 	(wire
 		(pts
@@ -6316,6 +6380,80 @@
 			(project "controlSemaforicoMEga"
 				(path "/c616119e-4503-4320-b4df-cfa71e76f7b3"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 119.38 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44cc0395-a896-4ffb-843b-c1b1b442e403")
+		(property "Reference" "J6"
+			(at 120.015 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "I2C"
+			(at 120.015 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 119.38 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 119.38 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88536d20-3ee6-4e80-adbd-b02123cfaa99")
+		)
+		(pin "2"
+			(uuid "9ed73f60-a411-477b-896c-c80e687b0bf3")
+		)
+		(pin "4"
+			(uuid "2d17237c-57bd-4683-a675-5290c4189a80")
+		)
+		(pin "3"
+			(uuid "b7a439b4-0fa8-46d5-911b-bb2ccc554ee7")
+		)
+		(instances
+			(project "controlSemaforicoMEga"
+				(path "/c616119e-4503-4320-b4df-cfa71e76f7b3"
+					(reference "J6")
 					(unit 1)
 				)
 			)
